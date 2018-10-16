@@ -1,5 +1,6 @@
 # BitMap-font-creator---GoDot
 *by Garrom*
+
 This is plugin for GoDot game engine written in GDScript. Don't try to use it outside GoDot, It won't work.
 
 
