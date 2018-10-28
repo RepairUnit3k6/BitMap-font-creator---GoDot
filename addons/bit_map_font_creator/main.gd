@@ -69,7 +69,6 @@ func look_for_file(var text):
 				dock.get_node("Label4").text = "File found, not bitmap font, Can't edit"
 				dock.get_node("Label4").add_color_override("font_color", Color("ff0000"))
 				dock.get_node("tex_path").editable = true
-				dock.get_node("tex_path").text = ""
 				dock.get_node("Label").add_color_override("font_color", Color("ff4646"))
 				dock.get_node("Label").text = "Save path-Invalid"
 				valid_file = false
@@ -78,7 +77,6 @@ func look_for_file(var text):
 			dock.get_node("Button").text = "Create file"
 			dock.get_node("tex_path").editable = true
 			dock.get_node("Label4").add_color_override("font_color", Color("ffffff"))
-			dock.get_node("tex_path").text = ""
 			dock.get_node("Label").add_color_override("font_color", Color("46ff49"))
 			dock.get_node("Label").text = "Save path-Valid"
 			actual_mode = mode.new
@@ -88,7 +86,7 @@ func look_for_file(var text):
 		dock.get_node("Label4").add_color_override("font_color", Color("ff0000"))
 		dock.get_node("Label").add_color_override("font_color", Color("ff4646"))
 		dock.get_node("Label").text = "Save path-Invalid"
-		valid_file = true
+		valid_file = false
 		actual_mode = mode.none
 
 func create():
