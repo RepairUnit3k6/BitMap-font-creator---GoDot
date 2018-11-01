@@ -13,3 +13,7 @@ must be full including *res://* or *usr://*.
 4. X, Y, W and H are Rect2D coordinates of symbol you are adding. Rect is in pixels on your texture.
 5. Click button and let it work.
 6. Add more symbols by repeating steps 3-5 with same file. If editing existing font, texture is not required.
+
+About "Invalid path"
+---------------
+Both paths needs to contain "res://" or "usr://". Save path need to contain ".tres" and texture path need to contains ".png", ".jpg" or ".jpeg"
