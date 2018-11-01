@@ -1,6 +1,8 @@
 # BitMap-font-creator---GoDot
 *by Garrom*
 
+![Icon](https://github.com/Garrom/BitMap-font-creator---GoDot/blob/master/Icon2.png) 
+
 This is plugin for GoDot game engine written in GDScript. Don't try to use it outside GoDot, It won't work.
 
 
@@ -17,3 +19,10 @@ must be full including *res://* or *usr://*.
 About "Invalid path"
 ---------------
 Both paths needs to contain "res://" or "usr://". Save path need to contain ".tres" and texture path need to contains ".png", ".jpg" or ".jpeg"
+
+
+Screenshots
+---------------
+![Scr1](https://github.com/Garrom/BitMap-font-creator---GoDot/blob/master/Screenshot2.png)
+
+*Image of correct setup.*
