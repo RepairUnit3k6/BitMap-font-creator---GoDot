@@ -4,6 +4,7 @@
 ![Icon](https://github.com/Garrom/BitMap-font-creator---GoDot/blob/master/Icon2.png) 
 
 This is plugin for GoDot 3 game engine written in GDScript. Don't try to use it outside GoDot, It won't work.
+**Plugin is under MIT license. MIT license simply say "Do whatever you want, I don't care about yours copy of plugin"**
 
 
 How to use :
